@@ -54,7 +54,7 @@ $tab_des_h = array(
 $mort = 0;
 $non_mort = 0;
 $depart = 0;
-$iteration = 1000;
+$iteration = 20000;
 
 for($e = $depart; $e < $iteration; $e++){ //caractéristiques
 
