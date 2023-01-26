@@ -7,11 +7,12 @@
    body{
     font-family: "Marianne";
     font-weight:normal;
+    margin:0;
    }
 
    .container{
     max-width: 1100px;
-    margin: 50px auto;
+    margin: 100px auto 50px auto;
    }
 
    .author-info,.illu-info{
@@ -53,3 +54,45 @@
     margin-bottom: 0;
    }
    
+   header {
+    border-bottom: 2px solid red;
+    padding: 10px 25px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: calc(100vw - 0px);
+    transition: 0.3s top;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0px 10vw;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.underlined {
+    display: table-cell;
+    position: relative;
+}
+
+.underlined a {
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
