@@ -61,10 +61,10 @@ for ($i=$depart; $i < $iteration; $i++) {
         var data = google.visualization.arrayToDataTable([
           ['Place', 'Vivants', 'Morts'],
           ['Conducteur', <?= $etat_pers[0][1] ?>, <?= $etat_pers[0][0] ?>],
-          ['place du passager avant', <?= $etat_pers[1][1] ?>, <?= $etat_pers[1][0] ?>],
-          ['place du passager arrière droite', <?= $etat_pers[2][1] ?>, <?= $etat_pers[2][0] ?>],
-          ['place du passager arrière gauche', <?= $etat_pers[3][1] ?>, <?= $etat_pers[3][0] ?>],
-          ['place du passager arrière millieu', <?= $etat_pers[4][1] ?>, <?= $etat_pers[4][0] ?>]
+          ['Passager avant', <?= $etat_pers[1][1] ?>, <?= $etat_pers[1][0] ?>],
+          ['Passager arrière droite', <?= $etat_pers[2][1] ?>, <?= $etat_pers[2][0] ?>],
+          ['Passager arrière gauche', <?= $etat_pers[3][1] ?>, <?= $etat_pers[3][0] ?>],
+          ['Passager arrière millieu', <?= $etat_pers[4][1] ?>, <?= $etat_pers[4][0] ?>]
 
         ]);
         
@@ -98,7 +98,7 @@ for ($i=$depart; $i < $iteration; $i++) {
 
         var options = {
           chart: {
-            title: 'Taux de mortalié (%) en fonction des routes',
+            title: 'Taux de mortalié (%) en fonction des places',
             subtitle: 'Sur <?php echo $iteration ?> itérations.',
           }
         };
