@@ -24,7 +24,7 @@ $communales = 0;
 
 
 $depart = 0;
-$iteration = 10000;
+$iteration = 1000;
 
 for($e = $depart; $e < $iteration; $e++){ //lieux
 
