@@ -115,7 +115,6 @@ for($e = $depart; $e < $iteration; $e++){ //lieux
           ['Autoroute', <?= $autoroute ?>, <?= $m_autoroute ?>],
           ['Route nationale', <?= $nationale ?>, <?= $m_nationale ?>],
           ['Route Départementale', <?= $departementale ?>, <?= $m_departementale ?>],
-
           ['Voie Communales', <?= $communales ?>, <?= $m_communales ?>]
 
         ]);
@@ -124,8 +123,8 @@ for($e = $depart; $e < $iteration; $e++){ //lieux
 
         var options = {
           chart: {
-            title: 'Company Performance',
-            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+            title: "Nombre de personnes impliqués/mortes dans un accident",
+            subtitle: 'Sur <?php echo $iteration ?> itérations.',
           }
         };
 
@@ -148,8 +147,8 @@ for($e = $depart; $e < $iteration; $e++){ //lieux
 
         var options = {
           chart: {
-            title: 'Company Performance',
-            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+            title: 'Taux de mortalié (%) en fonction des routes',
+            subtitle: 'Sur <?php echo $iteration ?> itérations.',
           }
         };
 
