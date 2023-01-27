@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Marianne";
+    src: url("../fonts/Marianne-Regular.otf") format("otf");
+    font-weight:normal;
+   }
+
+   body{
+    font-family: "Marianne";
+    font-weight:normal;
+    margin:0;
+   }
+
+   .container{
+    max-width: 1100px;
+    margin: 100px auto 50px auto;
+   }
+
+   .author-info,.illu-info{
+    color: rgb(127, 127, 127);
+    margin: 0;
+   }
+
+   h1{
+    font-size: 56px;
+    margin: 0;
+    line-height: 109.5%;
+   }
+
+   .tags{
+    display: flex;
+   }
+
+   .tag{
+    background-color: red;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 50px;
+   }
+
+   .img-illu{
+    width: 100%;
+   }
+
+   .article{
+    margin: 50px 0px;
+    font-size: 20px;
+   }
+
+   .tag + .tag{
+    margin-left: 5px;
+   }
+
+   h3{
+    margin-bottom: 0;
+   }
+   
+   header {
+    border-bottom: 2px solid red;
+    padding: 10px 25px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: calc(100vw - 0px);
+    transition: 0.3s top;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0px 10vw;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.underlined {
+    display: table-cell;
+    position: relative;
+}
+
+.underlined a {
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card h3, .card p{
+    margin: 0;
+}
+
+.card-illu{
+    max-width: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.button{
+    padding: 5px 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.buttpref{
+    margin-top: 20px;
+}

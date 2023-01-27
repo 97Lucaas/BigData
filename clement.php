@@ -42,7 +42,7 @@ for ($i=$depart; $i < $iteration; $i++) {
 
 
 
-var_dump($etat_pers);
+//var_dump($etat_pers);
 
 
 ?>
@@ -87,10 +87,10 @@ var_dump($etat_pers);
           ['Type de route', 'Taux de mortalié (%)'],
 
           ['Conducteur', <?= ($etat_pers[0][0]/$etat_pers[0][1])*100 ?>],
-          ['place du passager avant', <?= ($etat_pers[1][0]/$etat_pers[1][1])*100 ?>],
-          ['place du passager arrière droite', <?= ($etat_pers[2][0]/$etat_pers[2][1])*100 ?>],
-          ['place du passager arrière gauche', <?= ($etat_pers[3][0]/$etat_pers[3][1])*100 ?>],
-          ['place du passager arrière millieu', <?= ($etat_pers[4][0]/$etat_pers[4][1])*100 ?>]
+          ['Passager avant', <?= ($etat_pers[1][0]/$etat_pers[1][1])*100 ?>],
+          ['Passager arrière droite', <?= ($etat_pers[2][0]/$etat_pers[2][1])*100 ?>],
+          ['Passager arrière gauche', <?= ($etat_pers[3][0]/$etat_pers[3][1])*100 ?>],
+          ['Passager arrière millieu', <?= ($etat_pers[4][0]/$etat_pers[4][1])*100 ?>]
 
 
 
