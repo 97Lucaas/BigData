@@ -110,8 +110,8 @@ for ($i=$depart; $i < $iteration; $i++) {
     </script>
   </head>
   <body>
-    <div id="columnchart_material" style="width: 100%; height: 500px;"></div>
-    <div id="columnchart_material2" style="width: 100%; height: 500px;"></div>
+    <div id="columnchart_material" style="width: 100%; height: 50%;"></div>
+    <div id="columnchart_material2" style="width: 100%; height: 50%;"></div>
   </body>
 </html>
 
