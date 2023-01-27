@@ -42,7 +42,7 @@ for ($i=$depart; $i < $iteration; $i++) {
 
 
 
-//var_dump($etat_pers);
+var_dump($etat_pers);
 
 
 ?>
