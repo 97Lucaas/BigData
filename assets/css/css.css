@@ -133,3 +133,19 @@ nav ul {
 .buttpref{
     margin-top: 20px;
 }
+/*
+.img-control {
+    margin-left: 3.5%;
+    width: 50%;
+    overflow: hidden;
+    align-self: stretch;
+  }
+  
+  .img-control img {
+    height: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  */
